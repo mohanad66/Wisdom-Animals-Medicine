@@ -1,0 +1,313 @@
+:root{
+    color-scheme: light dark;
+}
+body {
+    position: relative;
+    overflow: overlay;
+}
+h2, h1, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-top: 1%}
+p {
+    font-family: 'Roboto Slab', serif;
+}
+.subhead{
+    margin-right: 120px;
+}
+.navbar-brand h2{
+    margin-right: 120px;
+}
+.img-circle {
+    border-radius: 300px;
+}
+.navbar-light .navbar-brand {
+    color: rgb(255, 255, 255);
+    background-position: 10px 0;
+    background-image: url(../images/wisdompetlogo.svg);
+    background-repeat: no-repeat;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-left: 120px;
+    padding-top: 10px;
+    font-size: 1.1rem;
+}
+
+.navbar .navbar-nav {
+    padding-right: 60px;
+}
+a img {
+    margin: 10px 0 0 80px;
+    height: 90px;
+}
+.navbar-light .navbar-brand:hover {
+    color: rgb(255, 255, 255);
+}
+.navbar .navbar-nav .nav-item .nav-link.active {
+    color: #EEC856;
+    position: relative;
+}
+.navbar .navbar-nav .nav-item .nav-link.active::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #EEC856;
+    width: 100%;
+    height: 4px;
+    font-weight: 400;
+}
+.navbar .navbar-nav .nav-item .nav-link.active:hover::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    font-weight: 400;
+}
+.navbar .navbar-nav .nav-item .nav-link.active:hover {
+    color: #E15D5F;
+}
+.subhead {
+    display: block;
+    font-style: normal;
+    padding-left: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+.navbar .nav-item .nav-link {
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.navbar .nav-item .nav-link:hover {
+    color: #EEC856;
+}
+::-webkit-scrollbar {
+    background: transparent;
+    width: 15px;
+    height: 20px;
+}
+::-webkit-scrollbar-track{
+    color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(126, 126, 126, .5);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(126, 126, 126, 1);
+}
+html {
+    scrollbar-color: rgba(33, 33, 33, 0.5);
+    border-radius: 10px;
+    scrollbar-width: 15px;
+  }
+  html:hover {
+    scrollbar-color: rgba(33, 33, 33, 1);
+  }
+#mission {
+    background-color: rgba(228, 210, 157, 1);
+    background-image: -webkit-linear-gradient(270deg, rgba(238, 240, 138, 1) 0%, rgba(129, 154, 54, 1) 100%);
+    background-image: -moz-linear-gradient(270deg, rgba(238, 240, 138, 1) 0%, rgba(129, 154, 54, 1) 100%);
+    background-image: -o-linear-gradient(270deg, rgba(238, 240, 138, 1) 0%, rgba(129, 154, 54, 1) 100%);
+    background-image: linear-gradient(180deg, rgba(238, 240, 138, 1) 0%, rgba(129, 154, 54, 1) 100%);
+    border-top: 20px rgba(238, 200, 86, .5) solid;
+    padding: 50px 0;
+}
+#mission p {
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+#mission h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+#services {
+    text-align: center;
+}
+#services p {
+    padding-bottom: 10%}
+#services img {
+    max-width: 100px;
+}
+#staff {
+    background-color: #E4D29D;
+    background-image: -webkit-linear-gradient(270deg, rgb(228, 210, 157)0%, rgb(205, 174, 80)100%);
+    background-image: -moz-linear-gradient(270deg, rgb(228, 210, 157) 0%, rgb(205, 174, 80)100%);
+    background-image: -o-linear-gradient(270deg, rgb(228, 210, 157)0%, rgb(205, 174, 80)100%);
+    background-image: linear-gradient(180deg, rgb(228, 210, 157)0%, rgb(205, 174, 80)100%);
+}
+#staff img {
+    width: 100%}
+#staff h2 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+#staff p {
+    padding-bottom: 70px;
+}
+.doctor h3 {
+    color: rgb(111, 78, 54);
+    ;
+    font-weight: 500;
+}
+#testimonials h2 {
+    display: none;
+}
+blockquote {
+    position: relative;
+    min-height: 400px;
+    margin-bottom: 0;
+}
+.quote {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 90%;
+    padding: 15px 5%;
+    border-radius: 25px 0 0 0;
+    background-color: rgba(255, 255, 255, .6);
+}
+#janeh {
+    background-image: url(../images/testimonial-janeh.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+#johnb {
+    background-image: url(../images/testimonial-johnb.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+#mcphersons {
+    background-image: url(../images/testimonial-mcphersons.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+#lorraines {
+    background-image: url(../images/testimonial-lorraines.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+.intro {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.09rem;
+    display: block;
+    color: rgb(0, 0, 0);
+}
+.more {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0;
+    display: block;
+    line-height: 140%;
+    color: rgb(0, 0, 0);
+}
+.customer {
+    display: none;
+}
+.quote:hover .more {
+    font-size: 1.1rem;
+}
+.quote:hover {
+    background-color: rgba(250, 240, 180, .7);
+}
+.intro::after {
+    content: "..."
+}
+.quote:hover .intro::after {
+    content: ""}
+footer {
+    padding: 20px 0;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3rem;
+    display: block;
+    color: rgb(255, 255, 255);
+    background-color: rgb(88, 109, 116);
+}
+footer p {
+    margin-bottom: 0;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+    display: block;
+    color: rgb(255, 255, 255);
+}
+.phone {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: rgb(250, 250, 165);
+}
+footer p a {
+    color: rgb(250, 250, 165);
+    text-decoration: none;
+}
+footer p a:hover {
+    color: rgb(250, 200, 165);
+}
+@meida screen and (min-width:900) and (min-height:300) and (max- width:1080)
+{
+    #staff .row .img-circle{
+        margin-right:150px;
+        width:100%
+    }
+}
+@media screen and (max-width:900px) and (max-height:800px) {
+    .navbar-light .navbar-brand {
+    padding-left: 120px;
+}
+#staff .row img{
+    margin-right: 40px;
+}
+#staff .row
+{
+    text-align: center;
+    
+    margin-right: 60px;
+}
+.navbar .navbar-nav .nav-item .nav-link.active {
+    color: #2c2c2c;
+    position: relative;
+}
+.navbar .navbar-nav .nav-item .nav-link.active::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1c1c1c;
+    width: 0%;
+    height: 4px;
+    font-weight: 400;
+}
+.navbar .navbar-nav .nav-item .nav-link.active:hover::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0%;
+    font-weight: 400;
+}
+.navbar .navbar-nav .nav-item .nav-link.active:hover {
+    color: rgb(0, 0, 0);
+}
+.navbar .nav-item .nav-link {
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.navbar .nav-item .nav-link:hover {
+    color: #626262;
+}
+}
